@@ -2,10 +2,134 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: 'Product Sans';
 }
 
 html,body{
     height: 100%;
     width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+#nav{
+    /* background-color: red; */
+    height: 12vh;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    /* background-color: red; */
+    height: 100%;
+    width:20%;
+    font-family: Anek Devanagari Expanded;
+    font-size: 45px;
+    font-weight: 1000;
+    letter-spacing: -5px;
+    display: flex;
+    align-items: center;    /* y axis */
+    justify-content: center;  /* x axis */
+    border-right: 2px solid black;
+}
+
+#nav h2{
+    /* background-color: yellow; */
+    height: 100%;
+    width:20%;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;    /* y axis */
+    justify-content: center;  /* x axis */
+    border-right: 2px solid black;
+}
+
+#nav h2:nth-last-child(2){
+    width: 30%;
+}
+
+#nav h2:nth-last-child(1){
+    width: 10%;
+}
+
+
+#center{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 40px 50px;
+}
+
+#content{
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    /* background-color: yellow; */
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 4vh;
+}
+
+#text-over{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+
+#text-over h1{
+    font-family: Anek Devanagari Expanded;
+    font-size: 4vw;
+    line-height: 3.5vw;
+}
+
+#text-over h2{
+    font-size: 1.4vw;
+    font-weight: 100;
+    padding: 2vw 2.2vw;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#text-over2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#text-over2 h1{
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+
+#text-over2 img{
+    height: 3vw;
 }
