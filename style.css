@@ -133,3 +133,29 @@ html,body{
 #text-over2 img{
     height: 3vw;
 }
+
+#scroll{
+    /* background-color: red; */
+    width: 100%;
+    height: 40vh;
+    white-space: nowrap;
+    overflow-x: auto ;
+    overflow-y: hidden;
+}
+
+#container{
+    width: 110%;
+    height: 100%;
+    /* background-color: blue; */
+    display: inline-block;
+    padding: 2vw;
+}
+
+#scroll img{
+    margin: 0 2.2vw;
+    height: 100%;
+    width: 13%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
