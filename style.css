@@ -42,6 +42,28 @@ html,body{
     align-items: center;    /* y axis */
     justify-content: center;  /* x axis */
     border-right: 2px solid black;
+    position: relative;
+}
+
+#nav h1::after{
+    content: "©️";
+    font-family: 'Product Sans';
+    position: absolute;
+    font-weight: 400;
+    font-size: 2vw;
+    right: 16%;
+    top: 14%;
+}
+
+#nav h1::before{
+    content: "model management";
+    font-family: 'Product Sans';
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    right: 20%;
+    bottom: 18%;
 }
 
 #nav h2{
@@ -632,8 +654,8 @@ html,body{
     width: 100%;
     /* background-color: red; */
     white-space: nowrap;
-    /* overflow-x: auto;
-    overflow-y: hidden; */
+    overflow-x: hidden;
+    overflow-y: hidden;
     /* padding: 1vw 2vw; */
     border-bottom: 2px solid black;
     border-top: 2px solid black;
