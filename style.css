@@ -384,4 +384,245 @@ html,body{
     background-image: url(https://images.unsplash.com/photo-1508181238439-4c822474ac4a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: 0 80%;
+    margin-bottom: 4vw;
+}
+
+#page4{
+    width: 100%;
+    height: 120%;
+    padding: 4vw 4vw;
+}
+
+#page4>h1{
+    text-align: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: Anek Devanagari Expanded;
+    font-weight: 1000;
+    letter-spacing: -3px;
+    margin-bottom: 4vw;
+}
+
+.update{
+    /* background-color: red; */
+    height: 20vh;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update:nth-last-child(1){
+    border-bottom: 2px solid black;
+}
+
+.update h4{
+    margin-left: 2vw;
+    /* background-color: yellow; */
+    width: 6%;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.update-img{
+    margin-right: 10vw;
+    /* background-color: blue; */
+    height: 80%;
+    width: 10%;
+}
+
+.update-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 0 20%;
+    /* opacity: 0;
+    transition: all ease 0.3s; */
+}
+
+/* .update-img img:hover{
+    opacity: 1;
+} */
+
+.more-info{
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.more-info h1{
+    font-weight: 500;
+    font-size: 2.6vw;
+}
+
+.more-info h6{
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+/* ----second last update---- */
+
+#more-info2{
+    width: 20%;
+    text-transform: uppercase;
+}
+#more-info2 h1{
+    font-weight: 500;
+    font-size: 2.6vw;
+}
+
+#more-info2 h6{
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+/* -----page 5------ */
+
+#page5{
+    /* background-color: rgb(255, 0, 0); */
+    width: 100%;
+    height: 120%;
+    padding: 4vw 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page5-one{
+    /* background-color: yellow; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1708533643190-943de21443b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 25%;
+}
+
+
+#page5-two{
+    /* background-color: yellow; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#top-text{
+    width: 100%;
+    /* background-color: green; */
+}
+
+#top-text h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: Anek Devanagari Expanded;
+    font-weight: 1000;
+    letter-spacing: -3px;
+}
+
+#top-text h3{
+    width: 58%;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+#top-text p{
+    /* width: 58%; */
+    margin: 2vw 0;
+    font-size: 1.15vw;
+    font-weight: 400;
+}
+
+#bottom-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+#bottom-img img{
+    width: 19vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+#only-img2{
+    background-color: red;
+    height: 80%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1508181238439-4c822474ac4a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 80%;
+    margin-bottom: 4vw;
+}
+
+#page6{
+    /* background-color: blue; */
+    height: 120%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw 0;
+}
+
+#page6-part1{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1705514284469-d32c63e1fbc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDd8d3N3ZmU1ckJrTE18fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:0 15%;
+
+}
+
+#page6-part2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#page6-part2 img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 20%;
+    
+}
+
+#page6-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    /* gap: 6.2vw; */
+    margin-top: 1.2vw;
+}
+
+#page6-text h2{
+    /* background-color: yellow; */
+    height: 80%;
+    width: 40%;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 2.2vw;
+}
+
+#page6-text p{
+    /* background-color: yellow; */
+    width: 46%;
+    height: 80%;
+    font-size: 1.3vw;
+    font-weight: 200;
 }
